@@ -9,7 +9,7 @@ Payment gateway for [NANO](https://nano.org)
 ## Installing
 
  - *accept-nano* is written in Go. You can install from source:
-   ```$ go get -u github.com/accept-nano/accept-nano```
+   ```$ go get -u github.com/tundak/accept-nano```
    or
  - Download the latest compiled binary from [relases page](https://github.com/accept-nano/accept-nano/releases).
 
