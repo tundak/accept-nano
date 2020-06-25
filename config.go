@@ -74,22 +74,22 @@ func (c *Config) Read() error {
 
 func (c *Config) setDefaults() {
 	if c.DatabasePath == "" {
-		c.DatabasePath = "accept-nano.db"
+		c.DatabasePath = "accept-bcb.db"
 	}
 	if c.ListenAddress == "" {
 		c.ListenAddress = "127.0.0.1:8080"
 	}
 	if c.NodeURL == "" {
-		c.NodeURL = "http://127.0.0.1:7076"
+		c.NodeURL = "http://127.0.0.1:9076"
 	}
 	if c.NodeWebsocketURL == "" {
-		c.NodeWebsocketURL = "ws://127.0.0.1:7078"
+		c.NodeWebsocketURL = "ws://127.0.0.1:9078"
 	}
 	if c.NodeTimeout == 0 {
 		c.NodeTimeout = 600000
 	}
 	if c.Representative == "" {
-		c.Representative = "nano_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r"
+		c.Representative = "bcb_1os5ijf6dcd5cuo4q7gmpp8wmwjowt36u7wapg7hgxiccn6wpxka3s9du3dt"
 	}
 	if c.ShutdownTimeout == 0 {
 		c.ShutdownTimeout = 5000

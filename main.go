@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/accept-nano/accept-nano/nano"
+	"github.com/tundak/accept-nano/nano"
 	"github.com/cenkalti/log"
 	"github.com/ulule/limiter/v3"
 	"github.com/ulule/limiter/v3/drivers/store/memory"
